@@ -6,8 +6,8 @@ void printhello(){
     cout<<"hello"<<endl;
 }
 
-int love(){
-    cout<<"saiyam-stuti"<<endl;
+int me(){
+    cout<<"saiyam"<<endl;
     return 143;
 }
 
@@ -62,7 +62,7 @@ int main(){
     printhello();
 
     love();
-    int val = love();
+    int val = me();
     cout<<"val="<<val<<endl;
 
     cout<<"sum="<<sum(5,10)<<endl;
