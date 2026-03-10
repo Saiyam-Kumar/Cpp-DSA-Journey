@@ -9,7 +9,6 @@ int main(){
     //Output
 
     cout<<"Saiyam\nKumar"<<endl;
-    cout<<"Stuti"<<"Sharma"<<endl;
 
     //Variables
 
