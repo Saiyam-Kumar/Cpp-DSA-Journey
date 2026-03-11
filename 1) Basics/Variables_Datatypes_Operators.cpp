@@ -1,4 +1,3 @@
-//Variables,Datatypes and Operators
 #include<iostream>
 using namespace std;
 
