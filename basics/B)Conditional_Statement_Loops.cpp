@@ -1,4 +1,3 @@
-//Conditional Statement and Loops
 #include<iostream>
 using namespace std;
 int main(){
