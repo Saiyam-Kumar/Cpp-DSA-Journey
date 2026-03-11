@@ -1,4 +1,3 @@
-//Patterns
 #include <iostream>
 using namespace std;
 
