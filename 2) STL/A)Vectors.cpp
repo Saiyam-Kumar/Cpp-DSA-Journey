@@ -13,7 +13,7 @@ int singleNumber(vector<int>& nums) {
 
 int main(){
 
-    // -------- VECTOR SYNTAX --------
+    //Vector Syntax
     vector<int> vec = {1,2,3,4,5};
     cout << vec[3] << endl;
 
@@ -28,7 +28,7 @@ int main(){
         cout << val << endl;   
     }
 
-    // -------- VECTOR FUNCTIONS --------
+    //Vector Functions
     vector<int> vec2 = {2,3,4,5,6,7};
     cout << "size = " << vec2.size() << endl;
 
@@ -55,7 +55,7 @@ int main(){
     cout << vectu2.back() << endl;
     cout << vectu2.at(0) << endl;
 
-    // -------- SINGLE NUMBER PROBLEM --------
+    //Single Number Problem
     vector<int> nums = {4,1,2,1,2};
     int result = singleNumber(nums);
 
