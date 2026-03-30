@@ -12,7 +12,8 @@ public:
     int maxSubArray(vector<int>& nums) {
         int currSum = 0;
         int maxSum = INT_MIN;
-        for(int i=0; i<nums.size(); i++){
+        int n = nums.size();
+        for(int i=0; i<n; i++){
                 currSum = currSum + nums[i]; //Running Sum
                 maxSum = max(currSum,maxSum); //Storing maxSum
                 if(currSum<0){ //reset currSum to 0-> negative prefix never be maximum subarray sum
