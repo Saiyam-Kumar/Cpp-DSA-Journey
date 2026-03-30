@@ -1,5 +1,5 @@
 /*
-  Using Moore's Algorithm TC=>O(n) and SC=>O(1)
+  Using Moore's Algorithm TC = O(n) and SC = O(1)
   Every element cancels with another except majority element
   Remaining element will be majority elenent 
 */
