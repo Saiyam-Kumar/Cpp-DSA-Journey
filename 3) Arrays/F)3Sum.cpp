@@ -2,6 +2,7 @@
 3sum - Leetcode - 15
 Sort the array and Use two pointer on the j and k triplets 
 For duplicate triplets use set and get the final triplets whose sum  = 0
+TC -> O(n2 logn) and SC -> O(n2)
 */
 class Solution {
 public:
